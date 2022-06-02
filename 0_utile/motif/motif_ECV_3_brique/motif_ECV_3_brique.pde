@@ -36,13 +36,13 @@ void grille(int x, int y) {
 void show_motif(int rank, int ligne, int taille) {
   if(ligne%2 == 0) {
     if(rank%2 == 0) {
-      motif_brique(3,taille,0);
+      motif_brique(9,taille,0);
     } else {
-    motif_brique(3,taille,PI /2);
+      motif_brique(5,taille,PI /2);
     }
   } else {
     if(rank%2 == 0) {
-      motif_brique(3,taille,PI /2);
+      motif_brique(2,taille,PI /2);
     } else {    
       motif_brique(3,taille,0);
     }
